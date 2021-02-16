@@ -88,7 +88,7 @@ $(document).ready(function() {
     
                 favoriteRestaurants.push(newResFavorite);
                 
-                // Saves favorited restaurant's info in local storage
+                // Saves favorited restaurant's info in local storage - need to remove multiple favorites
                 localStorage.setItem("favoriteRestaurant", JSON.stringify(favoriteRestaurants));
             });
 
